@@ -1,0 +1,507 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    background-color: #0c0d0e;
+    padding: 0px 30px;
+    /* position: sticky;
+    top: 0; */   
+}
+
+.logo{
+    flex-grow: 2;
+}
+
+.discription{
+    justify-content: space-evenly;
+    font-size: 18px;
+    flex-grow: 1;
+    font-size: 16px;
+}
+.discription a{
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 20px;
+  
+}
+.discription a:hover{
+    color: #d1291c;
+ }
+
+.login{
+    font-size: 16px;
+    
+}
+.login a{
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 15px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.login img{
+    height: 25px; 
+    width: 30px; 
+    
+}
+.Explore{
+    position: absolute;
+    left: 710px;
+    bottom: 20px;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.Explore a{
+    text-decoration: none;
+
+    color: black;
+
+}
+.Explore button{
+    border: 0;
+    font-size: 16px;
+    padding: 10px 20px 10px;
+    
+}
+.Explore button i:hover{
+    transform: scaleX(1.6);
+    transition: 1s;
+    color: black;
+}
+
+.Explore1{
+    position: absolute;
+    left: 300px;
+    bottom: 180px;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.Explore1 h3{
+            padding-bottom: 20px;
+}
+.Explore1 a{
+    text-decoration: none;
+
+    color: black;
+
+}
+.Explore1 button{
+    
+    border: 0;
+    font-size: 16px;
+    padding: 10px 20px 10px;
+    
+}
+.Explore1 button i:hover{
+    transform: scaleX(1.6);
+    transition: 1s;
+    color: black;
+}
+
+
+.Explore2{
+    position: absolute;
+    right: 200px;
+    bottom: 220px;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.Explore2 a{
+    text-decoration: none;
+
+    color: black;
+
+}
+.Explore2 button{
+    border: 0;
+    font-size: 16px;
+    padding: 10px 20px 10px;
+    
+}
+.Explore2 button i:hover{
+    transform: scaleX(1.6);
+    transition: 1s;
+    color: black;
+}
+
+
+
+.navbar1{
+    background-color: #212121;
+    color: #ffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.navbar1 h2{
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+
+.poster{
+    display: flex;
+    
+}
+
+.hunter h2{
+    font-size: 16px;
+    line-height: 18px;
+    display: block;
+    color: #ffff; 
+    position: absolute;
+    top: 895px;
+    padding-left: 30px;
+    
+}
+.hunter img:hover{
+
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    padding-right: 0;
+    padding-left: 20px;
+    
+ }
+ .navbar2 h2{
+    color: #ffff;
+    font-size: 18px;
+    display: inline-block;
+ }
+ .types{
+    
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+ }
+.types span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.types h2{
+    font-size: 16px;
+    padding-top: 4px;
+}
+.types img{
+    height: 20px;
+    width: 20px;
+    color: #ffff;
+} 
+.navbar3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    padding-right: 0;
+    padding-left: 30px;
+    
+ }
+
+.navbar3 h2{
+    color: #ffff;
+    font-size: 18px;
+    display: inline-block;
+  
+ }
+ .types1{
+    
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-right: 200px;
+ 
+ }
+.types1 h2{
+    font-size: 16px;
+    padding-top: 4px;
+}
+.types1 span{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar4{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    padding-right: 0;
+    padding-left: 30px;
+    
+ }
+
+.navbar4 h2{
+    color: #ffff;
+    font-size: 18px;
+    display: inline-block;
+   
+ }
+ .types2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-right: 600px;
+ 
+ }
+.types2 h2{
+    font-size: 16px;
+    padding-top: 4px;
+   
+}
+.types2 span{
+    padding-left: 15px;
+    
+}
+
+.navbar5{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    padding-right: 0;
+    padding-left: 30px;
+    
+ }
+
+.navbar5 h2{
+    color: #ffff;
+    font-size: 18px;
+    display: inline-block;
+   
+ }
+ .types3{
+    
+    display: flex;
+    justify-content: space-around;
+    color: #ffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-right: 850px;
+ 
+ }
+.types3 h2{
+    font-size: 16px; 
+    padding-top: 4px;
+}
+.types3 span{
+    padding-left: 20px;
+    
+}
+
+.navbar6{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    padding-right: 0;
+    padding-left: 30px;
+    
+ }
+    
+.navbar6 h2{
+    color: #ffff;
+    font-size: 18px;
+    display: inline-block;
+   
+ }
+ .types4{
+    
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-right: 700px;
+ }
+.types4 h2{
+    font-size: 16px;
+     padding-top: 4px;
+}
+.types4 span{
+    padding-left: 15px;
+    
+}
+
+
+.nav7 {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #454444;
+    padding-top: 25px;
+    padding-bottom: 25px;
+        
+ }
+
+ #features img{
+   
+    height: 55px;
+    width: 55px;
+    margin-bottom: 20px;
+   
+ }
+ #features h3{
+    padding-left: 100px;
+    color: #ffff;
+    font-size: 16px;
+   
+ }
+ #features h3:hover{
+    color:#d1291c;
+ }
+ #features a{
+    text-decoration: none;
+ }
+
+.nav8{
+    display: flex;
+    justify-content: space-evenly;    
+    padding-left: 900px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #e3e3e3;   
+}
+
+.list{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.list ul h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    
+}
+
+.list ul{
+    display: inline-block;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 16px;
+    
+
+}
+.list ul li {
+    padding-bottom: 8px;
+    font-weight: 500;
+}
+
+
+.Exp{
+    position: absolute;
+    right: 200px;
+     top: 1320px;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.Exp h3{
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+.Exp a{
+    text-decoration: none;
+
+    color: black;
+
+}
+.Exp button{
+    border: 0;
+    font-size: 16px;
+    padding: 5px 20px 8px;
+    
+}
+.Exp button i:hover{
+    transform: scaleX(1.6);
+    transition: 1s;
+    color: black;
+}
+
+
+.Exp1{
+    position: absolute;
+    top: 3900px;
+    left: 300px;
+    transform: translate(-50%,-50%);
+    color: white;
+    
+}
+.Exp1 h3{
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+.Exp1 a{
+    text-decoration: none;
+
+    color: black;
+
+}
+
+.Exp1 button{
+    border: 0;
+    font-size: 16px;
+    padding: 5px 20px 8px;
+    
+}
+.Exp1 button i:hover{
+    transform: scaleX(1.6);
+    transition: 1s;
+    color: black;
+}
+
+
+.Exp2{
+    position: absolute;
+    top: 2590px;
+    left: 300px;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.Exp2 h3{
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+.Exp2 a{
+    text-decoration: none;
+
+    color: black;
+
+}
+.Exp2 button{
+    border: 0;
+    font-size: 16px;
+    padding: 5px 20px 8px;
+    
+}
+.Exp2 button i:hover{
+    transform: scaleX(1.6);
+    transition: 1s;
+    color: black;
+}
